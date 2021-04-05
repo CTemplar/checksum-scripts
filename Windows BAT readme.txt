@@ -1,7 +1,4 @@
-This is an attempt to calculate the SHA256 hash of a remote file using minimal dependencies. This only requires Windows 10 to be updated.
-Windows 10 Preview Build 17063 is the earliest version compatible, because it is the first version to include curl by default.
-
-This Windows 10 batch file works by first downloading all the index.html files from the various CTemplar sites, calculates the hash using CERTUTIL and then deleting the files.
+This batch file downloads the index.html files from the various CTemplar sites, calculates the hash using CERTUTIL and then deletes the files.
 
 NOTE: I haven't found a way to calculate the hash without having to download the file (this only applies to Windows.bat).
 
