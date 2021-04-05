@@ -3,24 +3,44 @@ This is an attempt to calculate the SHA256 hash of a CTemplar.html file using mi
 The scripts will automatically grab the files, calculate the hash and show them to the user. 
 
 # macOS
-The MacOS version should work on most (if not all) MacOS versions above OS X.
+Should work on most versions (if not all) above OS X.
 
 ## How to use?
 1. Open the Terminal.
 2. Paste the following:
- > curl https://raw.githubusercontent.com/OneWhiteBird/ctemplar-GetSHA/main/macOS.sh | bash
+ > curl -s https://raw.githubusercontent.com/OneWhiteBird/ctemplar-GetSHA/main/macOS.sh | bash
 
 ## Output
+
+```
+Admin:~ admin$ curl -s https://raw.githubusercontent.com/OneWhiteBird/ctemplar-GetSHA/main/macOS.sh | bash
+SHA256 OF CTEMPLAR.HTML ON https://ctemplar.com                    
+a8d6634a9f5bb3bf82335f7d86c70731000374ef644f7ddfb00523bf191fd68a  -
+SHA256 OF CTEMPLAR.HTML ON https://gh.ctemplar.com                 
+a8d6634a9f5bb3bf82335f7d86c70731000374ef644f7ddfb00523bf191fd68a  -
+SHA256 OF CTEMPLAR.HTML ON GITHUB                                  
+a8d6634a9f5bb3bf82335f7d86c70731000374ef644f7ddfb00523bf191fd68a  -
+```
 
 # Linux
-The Linux version requires the coreutils package (already present in most distros), which includes the sha256sum utility.
+Only requires the coreutils package (already present in most distros), which includes the sha256sum utility.
 
 ## How to use?
 1. Open the Terminal.
 2. Paste the following:
- > curl https://raw.githubusercontent.com/OneWhiteBird/ctemplar-GetSHA/main/Linux.sh | bash
+ > curl -s https://raw.githubusercontent.com/OneWhiteBird/ctemplar-GetSHA/main/Linux.sh | bash
 
 ## Output
+
+```
+[admin@localhost ~]$ curl -s https://raw.githubusercontent.com/OneWhiteBird/ctemplar-GetSHA/main/Linux.sh | bash
+SHA256 OF CTEMPLAR.HTML ON https://ctemplar.com                    
+a8d6634a9f5bb3bf82335f7d86c70731000374ef644f7ddfb00523bf191fd68a  -
+SHA256 OF CTEMPLAR.HTML ON https://gh.ctemplar.com                 
+a8d6634a9f5bb3bf82335f7d86c70731000374ef644f7ddfb00523bf191fd68a  -
+SHA256 OF CTEMPLAR.HTML ON GITHUB                                  
+a8d6634a9f5bb3bf82335f7d86c70731000374ef644f7ddfb00523bf191fd68a  -
+```
 
 # Windows
 The Windows version only requires Windows 10 to be updated. 
@@ -31,6 +51,10 @@ NOTE: I haven't found a way to calculate the hash without having to download the
 ## How to use?
 1. In this page, right-click on the Windows.bat file and click on "Save Link As..." and save it somewhere on your computer.
 2. Double left-click on the downloaded file to execute it.
+
+## Output
+
+![output_windows](https://user-images.githubusercontent.com/80723977/113630222-6bd34700-965f-11eb-92dd-fa32acb2438e.PNG)
 
 ## Documentation
 
