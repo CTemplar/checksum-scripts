@@ -8,12 +8,12 @@ Should work on most versions (if not all) above OS X.
 ## How to use?
 1. Open the Terminal.
 2. Paste the following:
- > curl -s https://raw.githubusercontent.com/OneWhiteBird/ctemplar-GetSHA/main/macOS.sh | bash
+ > curl -s https://raw.githubusercontent.com/CTemplar/checksum-scripts/main/macOS.sh | bash
 
 ## Output
 
 ```
-Admin:~ admin$ curl -s https://raw.githubusercontent.com/OneWhiteBird/ctemplar-GetSHA/main/macOS.sh | bash
+Admin:~ admin$ curl -s https://raw.githubusercontent.com/CTemplar/checksum-scripts/main/macOS.sh | bash
 SHA256 OF CTEMPLAR.HTML ON https://ctemplar.com                    
 a8d6634a9f5bb3bf82335f7d86c70731000374ef644f7ddfb00523bf191fd68a  -
 SHA256 OF CTEMPLAR.HTML ON https://gh.ctemplar.com                 
@@ -28,12 +28,12 @@ Only requires the coreutils package (already present in most distros), which inc
 ## How to use?
 1. Open the Terminal.
 2. Paste the following:
- > curl -s https://raw.githubusercontent.com/OneWhiteBird/ctemplar-GetSHA/main/Linux.sh | bash
+ > curl -s https://raw.githubusercontent.com/CTemplar/checksum-scripts/main/Linux.sh | bash
 
 ## Output
 
 ```
-[admin@localhost ~]$ curl -s https://raw.githubusercontent.com/OneWhiteBird/ctemplar-GetSHA/main/Linux.sh | bash
+[admin@localhost ~]$ curl -s https://raw.githubusercontent.com/CTemplar/checksum-scripts/main/Linux.sh | bash
 SHA256 OF CTEMPLAR.HTML ON https://ctemplar.com                    
 a8d6634a9f5bb3bf82335f7d86c70731000374ef644f7ddfb00523bf191fd68a  -
 SHA256 OF CTEMPLAR.HTML ON https://gh.ctemplar.com                 
