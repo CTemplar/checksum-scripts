@@ -1,11 +1,13 @@
-This is an attempt to calculate the SHA256 hash of a CTemplar.html file using minimal dependencies.
+This is an attempt to calculate the SHA-256 hash of the CTemplar webapp using minimal dependencies.
 
-The scripts will automatically grab the files, calculate the hash and show them to the user. 
+The scripts will automatically grab the files, calculate the hashes and show them to the user. 
 
 # macOS
+
 Should work on most versions (if not all) above OS X.
 
 ## How to use?
+
 1. Open the Terminal.
 2. Paste the following:
  > curl -s https://raw.githubusercontent.com/CTemplar/checksum-scripts/main/macOS.sh | bash
@@ -23,9 +25,11 @@ a8d6634a9f5bb3bf82335f7d86c70731000374ef644f7ddfb00523bf191fd68a  -
 ```
 
 # Linux
+
 Only requires the coreutils package (already present in most distros), which includes the sha256sum utility.
 
 ## How to use?
+
 1. Open the Terminal.
 2. Paste the following:
  > curl -s https://raw.githubusercontent.com/CTemplar/checksum-scripts/main/Linux.sh | bash
@@ -43,12 +47,15 @@ a8d6634a9f5bb3bf82335f7d86c70731000374ef644f7ddfb00523bf191fd68a  -
 ```
 
 # Windows
+
 The Windows version only requires Windows 10 to be updated. 
+
 The earliest version compatible is Windows 10 Preview Build 17063 because it is the first version to include curl by default.
 
 NOTE: I haven't found a way to calculate the hash without having to download the file.
 
 ## How to use?
+
 1. In this page, right-click on the Windows.bat file and click on "Save Link As..." and save it somewhere on your computer.
 2. Double left-click on the downloaded file to execute it.
 
