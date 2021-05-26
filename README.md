@@ -1,4 +1,4 @@
-This is an attempt to calculate the SHA-256 hash of the CTemplar webapp using minimal dependencies.
+This is an attempt to calculate the SHA-256 hash of the CTemplar web app using minimal dependencies.
 
 The scripts will automatically grab the files, calculate the hashes and show them to the user. 
 
